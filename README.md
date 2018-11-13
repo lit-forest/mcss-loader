@@ -11,6 +11,8 @@ npm install mcss-loader --save-dev
 ### Examples
 hain the mcss-loader with the [css-loader](https://github.com/webpack-contrib/css-loader) and the [style-loader](https://github.com/webpack-contrib/style-loader) to immediately apply all styles to the DOM.
 
+ser more options in [mcss](https://github.com/leeluolee/mcss)
+
 ``` js
 // webpack.config.js
 const path = require('path')
