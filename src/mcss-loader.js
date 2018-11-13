@@ -6,10 +6,6 @@ module.exports = function (source) {
 	const callback = this.callback;
 	const options = loaderUtils.getOptions(this);
 
-	console.log('###########')
-	console.log(this.resource)
-	console.log('###########')
-
 	mcss(options)
 		.translate(source)
 		.done(function (cssStr) {
