@@ -1,0 +1,15 @@
+.lh-15{
+	line-height:15px;
+}
+
+$color = #fff;
+
+$border-radius = ($radius = 5px){
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+div{
+	border: 2px solid hsla(10, 90%, 21%, 0.1);
+	$border-radius: 5px; 
+}
