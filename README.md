@@ -13,7 +13,7 @@ hain the mcss-loader with the [css-loader](https://github.com/webpack-contrib/cs
 
 ser more options in [mcss](https://github.com/leeluolee/mcss)
 
-``` js
+``` javascript
 // webpack.config.js
 const path = require('path')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
@@ -45,7 +45,7 @@ module.exports = {
 };
 ```
 
-### developer
+### Developer
 * download mcss-loader from github
 ```
 git clone  https://github.com/lit-forest/mcss-loader.git
